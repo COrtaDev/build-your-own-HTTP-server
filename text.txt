@@ -1,0 +1,14 @@
+node server.js
+
+nc -v localhost 3000
+
+GET /OK HTTP/1.1
+
+- /Bad-Request
+- /Created
+- /Forbidden
+- /Found
+- /Gateway-Timeout
+- /Internal-Server-Error
+- /Moved-Permanently
+- /Unauthorized
